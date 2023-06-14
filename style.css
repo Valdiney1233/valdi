@@ -1,0 +1,234 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #3532ae;
+	color: #fff;
+	padding: 20px;
+}
+.logo {
+  width: 100px; /* largura do logotipo */
+  height: 50px; /* altura do logotipo */
+  position: absolute; /* posição absoluta para posicioná-lo onde você quiser */
+  top: 10px; /* distância do topo */
+  left: 10px; /* distância da esquerda */
+}
+iframe {
+  align-items: center;
+}
+nav ul {
+  list-style: none; /* remover marcadores de lista */
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  background-color: #c00404;
+  color: #fbfbfb;
+}
+h3{
+  background-color: #1b1441;
+  text-align-last: center;
+  color: #f1ecbbfc;
+}
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+.botao {
+  background-color: #3532ae; /* Cor de fundo */
+  border: none; /* Remover a borda */
+  color: white; /* Cor do texto */
+  padding: 10px 25px; /* Espaçamento interno */
+  text-align: center; /* Centralizar o texto */
+  text-decoration: none; /* Remover o sublinhado */
+  display: inline-block; /* Exibir como um bloco */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor ao passar o mouse */
+  border-radius: 10px;
+}
+h4 {
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+  size: 1px;
+  text-align: center;
+  
+}
+nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.carousel {
+	margin-bottom: 20px;
+}
+
+.carousel img {
+	max-width: 100%;
+	height: auto;
+}
+
+.about, .courses {
+	margin-bottom: 20px
+  }
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+header,footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #293aa5;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+}
+
+.logo-destaque {
+    font-weight: bold;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.limita-area {
+    max-width: 1024px;
+}
+h3{
+  box-decoration-break: clone;
+}
+img {
+    width: 450px;
+    height: 300px;
+    align-self: center;
+}
+
+img:first-child {
+    width: 100%;
+    height: 50%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 25px;
+}
+
+p {
+    line-height: 32px;
+    background-color: #7da1ee6a;
+    text-align: center;
+}
+
+p:last-child {
+    display: inline;
+    background: #fdf258;
+    padding: 10px 5px;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+}
+
+.mais-informacoes {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 2px solid #ed5a0e;
+}
+
+.jogos-avaliados {
+    width: 100%;
+    display: flex;
+    margin: 25px 0px;
+    overflow-x: scroll;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+figcaption, figure span {
+    margin: 12px 0;
+    padding: 12px 5px;
+    text-align: center;
+    background: #e75308;
+    color: #fbfbfb;
+    flex-direction: column-reverse;
+    font-feature-settings: "blwf";
+}
+
